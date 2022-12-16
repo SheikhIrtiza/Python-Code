@@ -1,0 +1,13 @@
+a = "saliha"
+m = a.capitalize()
+print(m)
+n = a.lower()
+print(n)
+a = a.replace('sal','Z')
+print(a)
+i = a.find('iha')
+print(i)
+a = n.count('a')
+print(a)
+a = m.count('i')
+print(a)
