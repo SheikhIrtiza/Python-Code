@@ -1,9 +1,8 @@
 from random import randint
 from art import logo
 
-EASY_LEVEL_TURNS = 10
-HARD_LEVEL_TURNS = 5
-
+EASY_LEVEL_TURNS = 10 #we can guess 10 times if we choose easy level of difficulty.
+HARD_LEVEL_TURNS = 5  #we can guess 5 times  _____________________________________.
 #Function to check user's guess against actual answer.
 def check_answer(guess, answer, turns):
   """checks answer against guess. Returns the number of turns remaining."""
@@ -24,7 +23,7 @@ def set_difficulty():
   else:
     return HARD_LEVEL_TURNS
 
-def game():
+def game():#new function
   print(logo)
   #Choosing a random number between 1 and 100.
   print("Welcome to the Number Guessing Game!")
@@ -41,7 +40,7 @@ def game():
     #Let the user guess a number.
     guess = int(input("Make a guess: "))
 
-    #Track the number of turns and reduce by 1 if they get it wrong.
+    #Track the number of turns and reduce by 1 if they get it wrong. Now we will try to reduce no. of attemots
     turns = check_answer(guess, answer, turns)
     if turns == 0:
       print("You've run out of guesses, you lose.")
@@ -50,5 +49,5 @@ def game():
       print("Guess again.")
 
 
-game()
+game()#call function of def game():
 
