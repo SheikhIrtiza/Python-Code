@@ -1,4 +1,4 @@
-import random
+import random 
 # Import the random module here
 
 # Split string method
