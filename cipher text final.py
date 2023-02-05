@@ -42,7 +42,7 @@ while not should_end:
   restart = input("Type 'yes' if you want to go again. Otherwise type 'no'.\n")
   if restart == "no":
     should_end = True
-    print("Goodbye")
+    print("Goodbye!")
     
 
 
