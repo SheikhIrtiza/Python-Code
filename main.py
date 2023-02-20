@@ -1,29 +1,18 @@
+import another_module
+print(another_module.another_variable)
 
-#we can call clear() to clear the output in the console.
-from art import logo
-print(logo)
+from turtle import Turtle, Screen
 
-bids = {}
-bidding_finished = False
+tinny = Turtle()
+print(tinny)
+tinny.shape("turtle")#It will change the shape of turtle
+tinny.color("coral")
+tinny.forward(100)
 
-def find_highest_bidder(bidding_record):
-  highest_bid = 0
-  winner = ""
-  #bidding_record = {"Irtiza" :123, "Fatima": 321}
-  for bidder in bidding_record:
-    bid_amount = bidding_record [bidder]
-    if bid_amount > highest_bid:
-      highest_bid = bid_amount
-      winner = bidder
-  print(f"The winner is {winner} with a bid of ${highest_bid}")
+my_screen = Screen()
+print(my_screen.canvheight)#height of canves that the screen creates and screen is object and that canvas height is an attribute.
+# and here in line 13 i.e{print(my_screen.canvheight)}  we can call methods that are associated with the object
+my_screen.exitonclick()#my_screen = fxn, fxn is tied to objects so its actually called method
+#method name is exitonclick and this will allow our program to continue running untill we click on the screen and then it exit our code
 
-while not bidding_finished:
-  name =input("What is your name?")
-  price = int(input("What is your bid? $"))
-  bids[name]= price #key = name and value = price
-  should_continue = input("Are there any other bidders? Type 'yes' or 'no'")
-  if should_continue == "no":
-    bidding_finished = True
-    find_highest_bidder(bids)
-  elif should_continue == "yes":
-    clear()
+#we can create a new Object from a blueprint, we can tap into its attributes by using the object name dot then the name of the attribute
