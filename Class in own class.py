@@ -1,5 +1,7 @@
 class User:
-    pass
+
+    def __init__(self):
+        print("new user being created...")
 
 
 user_1 = User()
