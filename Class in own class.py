@@ -18,3 +18,4 @@ user_2.id = "002"
 user_2.name = "Ziya"
 
 print(user_2.name)
+ 
