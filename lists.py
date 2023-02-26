@@ -6,7 +6,7 @@ states_of_america = [
     "Alabama", "Maine", "Missouri", "Arkansas", "Michigan", "Florida", "Texas",
     "Iowa", "Wisconsin", "California", "Minnesota", "Oregon", "Kansas",
     "West Virginia", "Nevada", "Nebraska", "Colorado", "North Dakota",
-    "South Dakota", "Montana", "Washington", "Idaho", "Wyoming", "Utah",
+    "South Dakota", "Montana", "Washington", "Idaho", "Wyoming", "Utah",   
     "Oklahoma", "New Mexico", "Arizona", "Alaska", "Hawaii"
 ]
 
