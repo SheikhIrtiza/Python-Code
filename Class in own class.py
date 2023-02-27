@@ -6,7 +6,7 @@ class User:
 
 user_1 = User()
 
-#Now to create an attributr for that class we can write the code as
+#Now to create an attribute for that class we can write the code as
 user_1.id = "001"
 user_1.username = "Irtiza"
 
