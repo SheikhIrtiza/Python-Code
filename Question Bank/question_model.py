@@ -6,4 +6,4 @@ class Question:
 
 
 new_q = Question("What is your name", "False")
-print(new_q.text)
+print(new_q.text) 
