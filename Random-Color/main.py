@@ -7,6 +7,10 @@ def random_color():
     r = random.randint(0, 255)#red
     g = random.randint(0, 255)#green
     b = random.randint(0, 255)#blue
+    #or
+    #r = random.randint(0, 54)#red
+    #g = random.randint(0, 25)#green
+    #b = random.randint(0, 255)#blue
     random_color = (r, g, b)#here is our tuple created and this is basically a new random color
     return random_color# this fxn will return a random color as output
 
