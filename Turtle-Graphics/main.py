@@ -10,7 +10,7 @@ timmy_the_turtle = Turtle()
 #timmy_the_turtle.right(90)
 
 
-#now we can draw a simple score by the help of these lines
+#now we can draw a simple square by the help of these lines
 #timmy_the_turtle.forward(100)
 #timmy_the_turtle.left(90)
 #timmy_the_turtle.forward(100)
