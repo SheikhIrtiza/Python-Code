@@ -10,6 +10,6 @@ tim.speed("fastest")#It helps to increase the speed of tim or turtle
 for _ in range(200):#200 is the range used for loop to run
     tim.color(random.choice(colours))
     tim.forward(30)
-    tim.setheading(random.choice(directions))
+    tim.setheading(random.choice(directions)) 
 
 
