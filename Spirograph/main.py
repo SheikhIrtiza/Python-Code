@@ -22,4 +22,4 @@ draw_spirograph(5) #Here we are going to call this method draw_spirograph
 
 
 screen = t.Screen()
-screen.exitonclick()
+screen.exitonclick() 
