@@ -30,7 +30,7 @@ def game():#new function
   print("I'm thinking of a number between 1 and 100.")
   answer = randint(1, 100)
   print(f"Pssst, the correct answer is {answer}") 
-
+ 
   turns = set_difficulty()
   #Repeat the guessing functionality if they get it wrong.
   guess = 0
