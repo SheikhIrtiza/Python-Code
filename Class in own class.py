@@ -1,7 +1,7 @@
 class User:
 
     def __init__(self):
-        print("new user being created...")
+        print("new user being created...") 
 
 
 user_1 = User()
