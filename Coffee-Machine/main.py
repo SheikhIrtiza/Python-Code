@@ -7,7 +7,7 @@
 from menu import Menu, MenuItem
 from coffee_maker import CoffeeMaker
 from money_machine import MoneyMachine
-
+ 
 money_machine = MoneyMachine()#calling money machine
 coffee_maker = CoffeeMaker()#calling coffee maker
 menu = Menu()   #so we going to creaet an object from this menu blue print. 
