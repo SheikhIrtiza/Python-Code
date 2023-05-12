@@ -1,3 +1,4 @@
+# creating a variable and making a string to display for the user to enter the value at the same time when the line is compiled.
 age = input("What is your current age? ")
 
 age_as_int = int(age)
