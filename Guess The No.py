@@ -46,6 +46,7 @@ def game():#new function
     if turns == 0:
       print("You've run out of guesses, you lose.")
       return
+#     condition if the guess is not answer then the guess again will be printed
     elif guess != answer:
       print("Guess again.")
 
