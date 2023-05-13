@@ -37,6 +37,7 @@ def game():#new function
   turns = set_difficulty()
   #Repeat the guessing functionality if they get it wrong.
   guess = 0
+#   unless guess is not equal to answer loop will keep going
   while guess != answer:
     print(f"You have {turns} attempts remaining to guess the number.")
 
