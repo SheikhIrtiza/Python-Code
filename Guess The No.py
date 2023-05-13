@@ -23,6 +23,7 @@ def set_difficulty():
 #    return easy levels if the dificulty is choosen easy
     return EASY_LEVEL_TURNS
   else:
+    #   else hard levels if the difficulty is choosen hard
     return HARD_LEVEL_TURNS
 
 def game():#new function
