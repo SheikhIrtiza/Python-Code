@@ -1,3 +1,4 @@
+# importing package
 import random
 
 #Delete this line: word_list = ["ardvark", "baboon", "camel"]
