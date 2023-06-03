@@ -19,4 +19,4 @@ map[vertical - 1][horizontal - 1] = 'X'
 #Write your code above this row 👆
 
 # 🚨 Don't change the code below 👇
-print(f"{row1}\n{row2}\n{row3}")
+print(f"{row1}\n{row2}\n{row3}") 
