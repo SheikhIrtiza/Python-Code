@@ -10,7 +10,7 @@ def encrypt(plain_text, shift_amount):
     position = alphabet.index(letter)
     new_position = position + shift_amount 
     cipher_text += alphabet[new_position]
-  print(f"The encoded text is {cipher_text}")
+  print(f"The encoded text is {cipher_text}") 
 
 #Create a different function called 'decrypt' that takes the 'text' and 'shift' as inputs.
 def decrypt(cipher_text, shift_amount):
