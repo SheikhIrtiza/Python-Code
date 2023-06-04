@@ -8,6 +8,6 @@ num = int(input("Enter a number: "))
 
 if num < 0:  
     print("Factorial cannot be calculated for negative numbers.")
-else:
+else: 
     result = factorial(num)
     print("The factorial of", num, "is", result)
