@@ -6,7 +6,7 @@ def factorial(n):
 
 num = int(input("Enter a number: "))
 
-if num < 0:
+if num < 0: 
     print("Factorial cannot be calculated for negative numbers.")
 else:
     result = factorial(num)
