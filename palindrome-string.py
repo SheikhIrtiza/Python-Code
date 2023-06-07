@@ -7,7 +7,7 @@ def is_palindrome(string):
     if string == reversed_string: 
         return True
     else:
-        return False
+        return False 
   
 # Example usage 
 input_string = input("Enter a string: ")
