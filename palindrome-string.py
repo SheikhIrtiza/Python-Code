@@ -8,7 +8,7 @@ def is_palindrome(string):
         return True
     else:
         return False
-
+ 
 # Example usage
 input_string = input("Enter a string: ")
 if is_palindrome(input_string):
