@@ -4,7 +4,7 @@ def is_palindrome(string):
     # Reverse the string
     reversed_string = string[::-1]
     # Check if the original and reversed strings are equal
-    if string == reversed_string:
+    if string == reversed_string: 
         return True
     else:
         return False
