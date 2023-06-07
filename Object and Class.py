@@ -7,7 +7,7 @@ tinny = Turtle()
 print(tinny)
 tinny.shape("turtle")#It will change the shape of turtle
 tinny.color("coral")
-tinny.forward(100)
+tinny.forward(100) 
 
 my_screen = Screen()
 print(my_screen.canvheight)#height of canves that the screen creates and screen is object and that canvas height is an attribute.
