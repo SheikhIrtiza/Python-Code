@@ -8,7 +8,7 @@ programming_dictionary = {
 #print(programming_dictionary["Function"])
 
 #Adding new items to dictionary.
-programming_dictionary[
+programming_dictionary[ 
     "Loop"] = "The action of doing something over and over again."
 
 #Create an empty dictionary.
