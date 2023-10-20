@@ -6,8 +6,7 @@ Welcome to the Python Basic Programs repository! This repository contains a coll
 ## Program Categories
 
 - **Basic Programs:** Fundamental Python programs covering concepts like loops, conditionals, and functions.
-- **Data Structures:** Implementation of common data structures such as arrays, linked lists, and stacks.
-- **Algorithms:** Basic algorithms including sorting, searching, and recursion.
+
 
 ## How to Use
 
